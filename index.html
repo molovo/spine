@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spine.js - A simple Backbone wrapper</title>
+</head>
+<body>
+
+  <ul id="my-container"></ul>
+
+  <script type="text/template", id="my-template">
+
+    <li>
+      <h1>{{ title }}</h1>
+
+      <p>{{ description }}</h1>
+    </li>
+
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+  <script src="http://ajax.cdnjs.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+  <script type="text/javascript" src="./spine.min.js"></script>
+  <script>
+    new Spine('ENTER AN API URL', '#my-container', '#my-template').initialize();
+  </script>
+
+</body>
+</html>
