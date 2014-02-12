@@ -1,6 +1,6 @@
 # Spine.js
 
-A simple, re-useable wrapper for making basic API calls with backbone.
+Spine.js - a reusable wrapper for simple Backbone.js API calls.
 
 **NOTE:** this is only suitable for pulling in and templating data. To use more sophisticated Backbone.js methods, just use vanilla Backbone.
 
