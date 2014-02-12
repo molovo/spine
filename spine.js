@@ -41,7 +41,6 @@ var Spine = (function(urlRoot, parentSelector, templateSelector, uri){
 
         // Call the render function immediately
         initialize: function () {
-          // 'use strict';
 
           this.collection.on('add', this.render, this);
           this.render();
@@ -49,11 +48,9 @@ var Spine = (function(urlRoot, parentSelector, templateSelector, uri){
 
         // Grab the templates from above
         template: _.template( $(templateSelector).html() ),
-        //list: slug ? '' : _.template( $('#post-list-template').html() ),
 
         // Render it
         render: function () {
-          // 'use strict';
 
           var self = this;
 
